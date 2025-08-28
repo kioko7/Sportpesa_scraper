@@ -1,0 +1,21 @@
+﻿# Python
+__pycache__/
+*.pyc
+
+# Local DB / caches
+Utils/aliases_kv.sqlite
+
+# Generated data / logs
+Utils/unmapped_players.json
+Utils/unmapped_players_log.csv
+Utils/unmapped_tournaments.json
+Utils/unmapped_tournaments_log.csv
+Utils/selftest_player_aliases_failures*.csv
+
+# Large generated exports
+*.xlsx
+*.csv
+*.db
+
+# IDE
+.vscode/
